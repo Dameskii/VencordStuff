@@ -30,8 +30,8 @@ Do NOT modify this file if you dont know what youre doing.
 
 /**
  * Delete the @imports if you do not want compact-userarea and modern-icons
-*/
 @import url('https://discord-extensions.github.io/compact-userarea/src/source.css');
+*/
 @import url('https://discord-extensions.github.io/modern-indicators/src/source.css');
 
 /**
@@ -44,7 +44,7 @@ Do NOT modify this file if you dont know what youre doing.
  * Replaces Emojis
  * Delete this @import if you want the regular discord emojis (Docs coming soon (maybe))
 */
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css);
 
 :root {
   /* Banners (modifiable!) */
