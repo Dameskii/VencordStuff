@@ -53,7 +53,7 @@ Do NOT modify this file if you dont know what youre doing.
 
   /* Avatar Image Shape (modifiable!) (change all of the numbers to modify shape) */
     --rs-avatar-shape: 25%; /* 50% for round - 10% for default */
-    --avatar-radius: 15; /* default: 10px */
+    --avatar-radius: 15px; /* default: 10px */
     --reply-avatar-radius:8px; /* default: 5px */
 
   /* Server Image Shape (modifiable!) (change all of the numbers to modify shape) */
@@ -80,20 +80,20 @@ Do NOT modify this file if you dont know what youre doing.
       --chat-bubble: 1; /* 1 to enable chat bubbles, 0 to disable chat bubbles */
 
     --chat-bubble-background-color: #313244a1; /* Background Color of chat bubbles | #1f1d27a1 */
-    --chat-bubble-border-color: none; /* Chat bubble border | [color] to enable - none to disable */
+    --chat-bubble-border-color: [color]; /* Chat bubble border | [color] to enable - none to disable */
     --chat-bubble-code-background-color: var(--background-secondary-alt); /* Chat bubble background color for Code Messages | var(--background-secondary-alt) */
 
     --chat-bubble-max-width: 90%; /* Max width for chat bubble */
     --chat-bubble-border-radius: 5px; /* Roundness of chat bubble */
     /* Chat bubble shadows */
-    --chat-bubble-box-shadow-h-offset: 0;
-    --chat-bubble-box-shadow-v-offset: 0;
-    --chat-bubble-box-shadow-blur: 0;
-    --chat-bubble-box-shadow-color-h: 0;
-    --chat-bubble-box-shadow-color-s: 0%;
-    --chat-bubble-box-shadow-color-l: 0%;
+    --chat-bubble-box-shadow-h-offset: 6;
+    --chat-bubble-box-shadow-v-offset: 9;
+    --chat-bubble-box-shadow-blur: 2;
+    --chat-bubble-box-shadow-color-h: 240;
+    --chat-bubble-box-shadow-color-s: 21%;
+    --chat-bubble-box-shadow-color-l: 12%;
     --chat-bubble-box-shadow-color-a: 0;
 
     /* User Panel Position (top/bottom) */
-    --userpanel-position: 0; /* -1 to move it to the top, 0 for bottom */
+    --userpanel-position: 1; /* -1 to move it to the top, 0 for bottom */
 }
