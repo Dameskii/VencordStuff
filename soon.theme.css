@@ -39,7 +39,7 @@ Do NOT modify this file if you dont know what youre doing.
  * Replaces Emojis
  * Delete this @import if you want the regular discord emojis (Docs coming soon (maybe))
 */
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css);
 
 :root {
   /* Banners (modifiable!) */
@@ -80,7 +80,7 @@ Do NOT modify this file if you dont know what youre doing.
       --chat-bubble: 1; /* 1 to enable chat bubbles, 0 to disable chat bubbles */
 
     --chat-bubble-background-color: #313244a1; /* Background Color of chat bubbles | #1f1d27a1 */
-    --chat-bubble-border-color: [color]; /* Chat bubble border | [color] to enable - none to disable */
+    --chat-bubble-border-color: [#b4befe]; /* Chat bubble border | [color] to enable - none to disable */
     --chat-bubble-code-background-color: var(--background-secondary-alt); /* Chat bubble background color for Code Messages | var(--background-secondary-alt) */
 
     --chat-bubble-max-width: 90%; /* Max width for chat bubble */
