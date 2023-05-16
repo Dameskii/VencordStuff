@@ -57,29 +57,3 @@ Message bubble styles [If you don't want any place a /* in all]
 /*----------------------------------------------------
                 anything else down here
 ------------------------------------------------------*/
-
-/* HSL on Top */
-#app-mount .guilds-2JjMmN [class*=expandedFolderBackground] {
-    border-radius: var(--winrad2) !important;
-    left: calc(var(--server-size)/2) !important;
-}
-#app-mount .guilds-2JjMmN .wrapper-z5ab_q {
-    height: auto !important;
-    width: 0px !important;
-    top: calc(-50% + 1px) !important;
-    margin-left: 0px !important;
-}
-#app-mount .guilds-2JjMmN [class*=pill] span {
-    border-radius: 1.5px !important;
-}
-#app-mount .listItem-3SmSlK {
-    width: fit-content !important;
-    margin: 0 12px 6px !important;
-}
-.tutorialContainer-2jwoiB + .listItem-3SmSlK {
-    position: fixed !important;
-}
-#app-mount .base-2jDfDU {
-    border-left: none;
-    border-top-left-radius: 0px;
-}
